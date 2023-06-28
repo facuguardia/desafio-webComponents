@@ -1,0 +1,49 @@
+.aboutme-container {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  background-color: rgba(25, 33, 48, 1);
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 71px 0 112px 0;
+}
+.aboutme-container__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 720px) {
+  .aboutme-container {
+    flex-direction: column;
+    padding: 71px 44px;
+    justify-content: center;
+    gap: 38px;
+    height: 100%;
+  }
+  .aboutme-container__text {
+    justify-content: center;
+    text-align: center;
+  }
+}
+.aboutme-container__text--title {
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 10px;
+}
+.aboutme-container__text--paragraph {
+  width: 390px;
+  color: white;
+}
+.aboutme-container__img {
+  height: 415px;
+}
+@media (max-width: 720px) {
+  .aboutme-container__img {
+    width: 370px;
+    height: auto;
+  }
+}

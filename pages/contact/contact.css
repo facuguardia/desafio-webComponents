@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #13171c;
+}
+.container-contact {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 250px 92px;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.50);
+}
+@media (max-width: 720px) {
+  .container-contact {
+    flex-direction: column;
+    padding: 39px 32px;
+    border-bottom: none;
+    margin-top: 40px;
+    margin-bottom: 150px;
+  }
+}
+.container-namemail {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+@media (max-width: 720px) {
+  .container-namemail {
+    flex-direction: column;
+  }
+}
+.form-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  vertical-align: top;
+  color: aliceblue;
+  font-size: 64px;
+}
+@media (max-width: 720px) {
+  .form-title {
+    font-size: 42px;
+    text-align: center;
+  }
+}
+input {
+  width: 100%;
+  height: 59px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  border: none;
+  color: rgba(238, 238, 238, 0.50);
+  border-radius: 16px;
+}
+.form__label {
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.contacto__form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.form__label-textarea {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(57, 62, 70, 0.5);
+  border-radius: 16px;
+  padding: 10px 23px;
+  margin-top: 10px;
+}
+.form__label-name,
+.form__label-email {
+  margin-top: 10px;
+  background-color:rgba(57, 62, 70, 0.5);
+  color: white;
+}
+.button__contact {
+  margin-top: 24px;
+  width: 40%;
+  font-size: 18px;
+  font-weight: 700;
+  height: 55px;
+  border: none;
+  color: rgba(0, 0, 0);
+  background-color: rgba(0, 173, 181, 1);
+  border-radius: 24px;
+  margin-right: 12px;
+}
+@media (max-width: 720px) {
+  .button__contact {
+    width: 100%;
+  }
+}
+.button-span {
+  font-weight: var(--text-medium-weight);
+  letter-spacing: 0.2px;
+  display: inline-flex;
+
+  align-items: center;
+  gap: 6px;
+  text-align: left;
+  white-space: nowrap;
+}
