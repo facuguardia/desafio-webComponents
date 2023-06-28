@@ -3,7 +3,7 @@ function headerComponent(el) {
   headerCompEl.innerHTML = `
     <nav class="header__nav">
       <a href="/">
-        <img class="header__logo" src="../../images/logo-web.png" style="width: 48px; height: 48px;" />
+        <img class="header__logo" src="../../images/logo-web.png" style="width: 60px; height: 50px;" />
       </a>
       <ul class="header__list">
         <li class="header__item">

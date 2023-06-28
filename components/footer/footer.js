@@ -4,9 +4,10 @@ function footerComponent(el) {
     <div class="footer">
       <a href="/">
         <img
-          class="footer__logo" src="../../images/logo-web.png"
-          alt=""
-          style="width: 48px; height: 48px;"
+          class="footer__logo"
+          src="../../images/logo-web.png"
+          alt="logo"
+          style="width: 100px; height: 80px;"
         />
       </a>
       <div class="container">
